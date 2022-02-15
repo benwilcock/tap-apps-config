@@ -19,6 +19,8 @@ management:
   endpoint:
     health:
       show-details: always
+    shutdown:
+      enabled: true
 
 # Should log to a file (requires logback-spring.xml in their src/main/resources)      
 logging:
