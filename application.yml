@@ -1,5 +1,2 @@
 # COMMON APPLICATION PROPERTIES given to ALL applications
 
-# Server specifics
-server:
-  shutdown: graceful # The stop processing uses a timeout which provides a grace period during which existing requests will be allowed to complete but no new requests will be permitted
