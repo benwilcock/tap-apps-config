@@ -1,5 +1,6 @@
 message: "Ben, VMware, Spring Boot, and Tanzu Application Platform"
-timezoneid: "America/Los_Angeles"
+timezoneid: "Europe/London"
+config: "Config Server (GitHub)"
 
 # ACT - Australia/Darwin
 # AET - Australia/Sydney
