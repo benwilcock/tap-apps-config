@@ -2,13 +2,13 @@
 # All TAP applications...
 
 # Should register with Spring Boot Admin
-#spring:  
-#  boot:
-#    admin:
-#      client:
-#        url: http://spring-boot-admin.default.svc.cluster.local
-#        instance:
-#          service-base-url: http://${spring.application.name}.${NAMESPACE}.${DOMAIN}
+spring:  
+ boot:
+   admin:
+     client:
+       url: http://spring-boot-admin.default.svc.cluster.local
+       instance:
+         service-base-url: http://${spring.application.name}.${NAMESPACE}.${DOMAIN}
 
 # Should expose their Actuators
 management:
